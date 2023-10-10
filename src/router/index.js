@@ -3,6 +3,7 @@ import HomeView from './../views/HomeView.vue'
 import AboutView from './../views/AboutView.vue'
 import ContactView from './../views/ContactView.vue'
 import ServiceView from './../views/ServiceView.vue'
+import HelloAnimated from './../views/HelloAnimated.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/service',
     name: 'service',
     component: ServiceView
+  },
+  {
+    path: '/animate',
+    name: 'animate',
+    component: HelloAnimated
   }
 ]
 
